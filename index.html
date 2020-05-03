@@ -1,0 +1,16 @@
+<html ng-app="app">
+  <head>
+    <title>My Angular App</title>
+    <script src="./js/angular.js"></script>
+  </head>
+
+  <body>
+    <!-- if I am correct. The scope of the controller is limited to be inside of this div -->
+    <div ng-controller="MainController">
+      <h3>My name is {{ name }}</h3>
+    </div>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/MainController.js"></script>
+  </body>
+</html>
